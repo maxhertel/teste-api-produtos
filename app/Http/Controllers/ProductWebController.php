@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ProductRequest;
-use App\Services\ProductService;
+use App\Domains\Products\Requests\ProductRequest;
+use App\Domains\Products\Services\ProductService;
 use Illuminate\Http\Request;
 
 class ProductWebController extends Controller
