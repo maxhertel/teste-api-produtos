@@ -2,6 +2,7 @@
 
 namespace App\Domains\Products\Services;
 
+use App\Http\Resources\ProductCollection;
 use App\Models\Product;
 
 
@@ -19,7 +20,7 @@ class ProductService
      */
     public function getAllProducts()
     {
-        return Product::all();
+        return new ProductCollection(Product::all());;
     }
 
     /**

@@ -18,7 +18,7 @@
                         </div>
                     @endif
 
-                    <table class="table">
+                    <table class="">
                         <thead>
                             <tr>
                                 <th>ID</th>
